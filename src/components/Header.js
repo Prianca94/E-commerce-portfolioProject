@@ -1,13 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 import {
+  faBars,
   faCartArrowDown,
   faCodeCompare,
   faHeart,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSlack } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   return (
@@ -53,7 +55,7 @@ const Header = () => {
                   className="input-group-text"
                   id="inputGroup-sizing-default"
                 >
-                  <BsSearch className="fs-6"/>
+                  <BsSearch className="fs-6" />
                 </span>
               </div>
             </div>
@@ -94,6 +96,54 @@ const Header = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </header>
+      <header className="header-bottom-menu p-2">
+        <div className="container-xxl"></div>
+        <div className="row">
+          <div className="col-12">
+            <div className="menu-bottom d-flex align-items-center gap-30">            
+            <div>
+              <div class="dropdown">
+              <FontAwesomeIcon className="text-white" icon={faSlack}/>
+                <button
+                  class="btn btn-secondary dropdown-toggle bg-transparent border-0 me-5 d-inline-block"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <Link class="dropdown-item  text-white" href="#">
+                      Action
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item  text-white" href="#">
+                      Another action
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item  text-white" href="#">
+                      Something else here
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="menu-links text-white">
+              <div className="d-flex align-items-center gap-15">
+                <NavLink className="text-white">Home</NavLink>
+                <NavLink className="text-white">Our Products</NavLink>
+                <NavLink className="text-white">Blogs</NavLink>
+                <NavLink className="text-white">Contact</NavLink>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </header>
