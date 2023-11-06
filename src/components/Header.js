@@ -105,7 +105,7 @@ const Header = () => {
       <header className="header-bottom-strip p-2">
         <div className="container-xxl"></div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-10">
             <div className="menu-bottom d-flex align-items-center gap-30">
               <div>
                 <div class="dropdown">
@@ -140,15 +140,22 @@ const Header = () => {
                   </ul>
                 </div>
               </div>
+              
               <div className="menu-links text-white">
                 <div className="d-flex align-items-center gap-15">
                   <NavLink className="text-white">Home</NavLink>
                   <NavLink className="text-white">Our Products</NavLink>
                   <NavLink className="text-white">Blogs</NavLink>
                   <NavLink className="text-white">Contact</NavLink>
-                </div>
+                </div>          
               </div>
+          
             </div>
+          </div>
+          <div className="col-2">
+          <div className="menuicon2">
+                 <FontAwesomeIcon className="fontawesomeclass" icon={faBars} />
+              </div>
           </div>
         </div>
       </header>

@@ -111,6 +111,11 @@ a{
   display: none;
 }
 
+.header-bottom-strip .menuicon2{
+  display: none;
+
+}
+
 /* Header Ends */
 
 /*Responssive*/
@@ -126,5 +131,14 @@ a{
 .header-bottom-strip{padding: auto;}
 .header-bottom-strip .menu-links a{font-size: 2vw;}
 .header-bottom-strip .dropdown button{font-size: 3vw;}
- 
+.header-bottom-strip .menu-links {display:none;}
+
+.header-bottom-strip .menuicon2{
+  display: block;
+  color: white;
+
+}
+
+
+
 }
