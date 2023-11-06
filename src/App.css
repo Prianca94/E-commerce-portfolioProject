@@ -1,17 +1,24 @@
+/* @media screen and (max-width: 400px) {
+  body {
+    
+  }
+} */
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body{
   font-family: "Rubik",Sans-Serif;
+  position: relative;
 }
 :root{
   --color-131921:#9403fc;
   --color-3b4149:#fcfcfc;
   --color-febd69:#0a0a0a;
   --color-232f3e:#4a4747;
-
 
 }
 a{
@@ -24,16 +31,23 @@ a{
 .header-top-strip{
   background-color: var(--color-131921);
   border-bottom:1px solid var(--color-3b4149);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header-upper{
+
+.header-middle-strip{
   background-color: var(--color-131921);
 }
-.header-upper .input-group-text{
+.header-middle-strip .input-group-text{
   background-color: #febd69;
   border: #fcfcfc;
 }
-
+/* }
+.header-middle-strip a{
+  font-size:12px;
+} */
 .form-control{
   box-shadow: none;
   border-color: white;
@@ -55,11 +69,11 @@ a{
 }
 
 
-.header-bottom-menu{
+.header-bottom-strip{
   background-color: var(--color-232f3e);
 }
 
-.header-bottom-menu .menu-links a{
+.header-bottom-strip .menu-links a{
   font-size: 14px;
   color: white;
   line-height: 18px;
@@ -92,4 +106,25 @@ a{
   border: none;
 }
 
+.header-middle-strip .menuicon{
+  color: white;
+  display: none;
+}
+
 /* Header Ends */
+
+/*Responssive*/
+
+@media (max-width:600px) {
+
+.header-top-strip p{font-size: 2vw;}
+.header-middle-strip a{font-size: 4vw;}
+.header-bottom-strip row{padding: auto;}
+/* .header-middle-strip .menuicon{display: block;} */
+.header-upper-links p{display: none;}
+.header-upper-links{padding:auto;}
+.header-bottom-strip{padding: auto;}
+.header-bottom-strip .menu-links a{font-size: 2vw;}
+.header-bottom-strip .dropdown button{font-size: 3vw;}
+ 
+}
