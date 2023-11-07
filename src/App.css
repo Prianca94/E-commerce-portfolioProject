@@ -119,7 +119,92 @@ a{
 
 .header-bottom-strip .menuicon2{
   display: none;
+}
 
+.main-banner-content{
+  top: 22%;
+  left: 3%;
+}
+
+.main-banner-content h5{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color:#fcfcfc;
+  margin: 0px 0px 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.main-banner-content h7{
+  font-size: 17px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  padding: 0;
+  text-transform: none;
+
+}
+
+
+.main-banner-content p{
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+ 
+}
+
+.small-banner-content h5{
+  font-size: 6px;
+  font-weight: 400;
+  line-height: 20px;
+  color:#fcfcfc;
+  margin: 0px 0px 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.small-banner-content h7{
+  font-size: 10px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  padding: 0;
+  text-transform: none;
+}
+
+
+.small-banner-content p{
+  font-size: 7px;
+  line-height: 10px;
+  letter-spacing: 0.1px;
+ 
+}
+
+
+.small-banner-content{
+  top: 8%;
+  left:4%;
+  
+}
+
+.small-banner img{
+  height:150px;
+  width: 230px
+}
+.button{
+  background-color: var(--color-232f3e);
+  padding: 10px 23px;
+  color:white;
+  font-size: 14px;
+  margin-top: 60px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.button:hover{
+  color: black;
+  background-color: white;
 }
 
 /* Header Ends */
@@ -142,6 +227,11 @@ footer{
 .social-icons{
   
   align-items: center;
+}
+
+.foooter-middle h6{
+  font-weight: 500;
+  
 }
 
 

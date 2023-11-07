@@ -41,14 +41,14 @@ const Footer = () => {
         <div className="container-xxl">
         <div className="row  text-white">
           <div className="col-4">
-            <h6>Contact</h6>
+            <h5 className="mb-3">Contact</h5>
             <div>
               <address>3, prime Residency <br/>
               Manjipura Road <br/>
               pincode-387002
               </address>
-              <a className="text-white mt-4 d-block mb-3" href="tel:+91 9574382333">+91 9574382333</a>
-           <a className="mt-4 d-block mb-3 text-white" href="mailto:azee@gmail.com">Email - azee@gmail.com</a>
+              <a className="text-white mt-0 d-block mb-0" href="tel:+91 9574382333">+91 9574382333</a>
+           <a className="mt-1 d-block mb-1 text-white" href="mailto:azee@gmail.com">Email - azee@gmail.com</a>
             <div className="social-icons d-flex align-items-center gap-15">
               <a className="text-white" href="https://www.facebook.com"><FontAwesomeIcon icon={faFacebook} /></a>
             <a className="text-white" href="https://www.whatsapp.com"><FontAwesomeIcon icon={faWhatsapp} /></a>
@@ -58,33 +58,33 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-3">
-            <h6>Information</h6>
+            <h5 className="mb-3">Information</h5>
             <div className="footer-links d-flex flex-column">
-              <Link className="text-white py-1 mb-1">Privacy Policy</Link>
-              <Link className="text-white py-1 mb-1">Refund Policy</Link>
-              <Link className="text-white py-1 mb-1">Shipping Policy</Link>
-              <Link className="text-white py-1 mb-1">Terms Of Service</Link>
-              <Link className="text-white py-1 mb-1">Blogs</Link>
+              <Link className="text-white py-0 mb-0">Privacy Policy</Link>
+              <Link className="text-white py-0 mb-0">Refund Policy</Link>
+              <Link className="text-white py-0 mb-0">Shipping Policy</Link>
+              <Link className="text-white py-0 mb-0">Terms Of Service</Link>
+              <Link className="text-white py-0 mb-0">Blogs</Link>
             </div>
           </div>
           <div className="col-3">
-            <h6>Account</h6>
+            <h5 className="mb-3">Account</h5>
             <div className="footer-links d-flex flex-column">
-              <Link className="text-white py-1 mb-1">Search</Link>
-              <Link className="text-white py-1 mb-1">About us</Link>
-              <Link className="text-white py-1 mb-1">FAQ</Link>
-              <Link className="text-white py-1 mb-1">Contact</Link>
-              <Link className="text-white py-1 mb-1">Size-Chart</Link>
+              <Link className="text-white py-0 mb-0">Search</Link>
+              <Link className="text-white py-0 mb-0">About us</Link>
+              <Link className="text-white py-0 mb-0">FAQ</Link>
+              <Link className="text-white py-0 mb-0">Contact</Link>
+              <Link className="text-white py-0 mb-0">Size-Chart</Link>
             </div>
           </div>
           <div className="col-2">
-            <h6>Quick Links</h6>
+            <h5 className="mb-3">Quick Links</h5>
             <div className="footer-links d-flex flex-column">
-              <Link className="text-white py-1 mb-1">Laptop</Link>
-              <Link className="text-white py-1 mb-1">Mobile</Link>
-              <Link className="text-white py-1 mb-1">Tablet</Link>
-              <Link className="text-white py-1 mb-1">Watch</Link>
-              <Link className="text-white py-1 mb-1">Accessories</Link>
+              <Link className="text-white py-0 mb-0">Laptop</Link>
+              <Link className="text-white py-0 mb-0">Mobile</Link>
+              <Link className="text-white py-0 mb-0">Tablet</Link>
+              <Link className="text-white py-0 mb-0">Watch</Link>
+              <Link className="text-white py-0 mb-0">Accessories</Link>
             </div>
 
           </div>
