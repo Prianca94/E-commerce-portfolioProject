@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
+import Blogcard from "../components/blogcard";
 
 const Home = () => {
   return (
@@ -219,29 +220,59 @@ const Home = () => {
               <div className="marquee-inner-wrapper card-wrapper">
                 <Marquee>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-1.png" alt="brand1"/>
+                    <img src="images/brand-1.png" alt="brand1" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-2.png" alt="brand2"/>
+                    <img src="images/brand-2.png" alt="brand2" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-3.jpg" alt="brand3"/>
+                    <img src="images/brand-3.jpg" alt="brand3" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-4.jpg" alt="brand4"/>
+                    <img src="images/brand-4.jpg" alt="brand4" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-5.png" alt="brand5"/>
+                    <img src="images/brand-5.png" alt="brand5" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-6.jpg" alt="brand5"/>
+                    <img src="images/brand-6.jpg" alt="brand5" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-7.png" alt="brand5"/>
+                    <img src="images/brand-7.png" alt="brand5" />
                   </div>
                 </Marquee>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="blog-wrapper home-wrapper-2 py-3">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h5 className="section-heading">
+                Our Latest Blogs
+              </h5>
+            </div>
+            <Blogcard/>
+            <Blogcard/>
+            <Blogcard/>
+            <Blogcard/>
+          </div>
+        </div>
+      </section>
+      <section className="blog-wrapper home-wrapper-2 py-3">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h5 className="section-heading">
+                Featured Collection
+              </h5>
+            </div>
+            <Blogcard/>
+            <Blogcard/>
+            <Blogcard/>
+            <Blogcard/>
           </div>
         </div>
       </section>
