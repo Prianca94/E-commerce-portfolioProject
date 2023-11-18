@@ -14,7 +14,7 @@ import { faSlack } from "@fortawesome/free-brands-svg-icons";
 const Header = () => {
   return (
     <>
-      <header className="header-top-strip py-1">
+      <header className="header-top-strip py-0">
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
@@ -34,7 +34,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <header className="header-middle-strip py-1">
+      <header className="header-middle-strip py-0">
         <div className="container-xxl">
           <div className="row align-items-center">
             <div className="col-2">
@@ -86,10 +86,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-5 text-white">
                     <FontAwesomeIcon className="fs-4" icon={faCartArrowDown} />
-                    <div className="d-flex flex-column gap-10">
-                      <span className="badge bg-white text-dark">0</span>
+                    <div className="d-flex flex-column gap-5">
+                      <span className="badge bg-white text-dark mt-1">0</span>
                       <p className="mb-0">$250</p>
                     </div>
                   </Link>
