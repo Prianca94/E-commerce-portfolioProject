@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import Blogcard from "../components/blogcard";
+import Productcard from "../components/Productcard";
 
 const Home = () => {
   return (
@@ -101,7 +102,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-wrapper-2 py-3 px-3">
+      <section className="home-wrapper-2 py-4 px-3">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
@@ -146,7 +147,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-wrapper-2 py-3">
+      <section className="home-wrapper-2 py-1">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
@@ -246,6 +247,23 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="blog-wrapper home-wrapper-2 py-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h5 className="section-heading">
+                Featured Collection
+              </h5>
+            </div>
+            <Productcard/>
+            <Productcard/>
+            <Productcard/>
+            <Productcard/>
+            <Productcard/>
+            <Productcard/>
+          </div>
+        </div>
+      </section>
       <section className="blog-wrapper home-wrapper-2 py-3">
         <div className="container-xxl">
           <div className="row">
@@ -261,21 +279,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="blog-wrapper home-wrapper-2 py-3">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="col-12">
-              <h5 className="section-heading">
-                Featured Collection
-              </h5>
-            </div>
-            <Blogcard/>
-            <Blogcard/>
-            <Blogcard/>
-            <Blogcard/>
-          </div>
-        </div>
-      </section>
+   
     </>
   );
 };
