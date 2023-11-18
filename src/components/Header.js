@@ -24,7 +24,7 @@ const Header = () => {
             </div>
             <div className="col-6">
               <p className="contactclass text-end text-white">
-                Phone No{" "}
+                <img src="images/phone.png" alt="phone"/>{" "}
                 <a className="text-white" href="tel:+91 9574382333">
                   {" "}
                   +91 9574382333
