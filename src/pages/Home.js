@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import Blogcard from "../components/blogcard";
 import Productcard from "../components/Productcard";
+import UniqueProducts from "../components/UniqueProducts";
 
 const Home = () => {
   return (
@@ -147,6 +148,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <section className="home-wrapper-2 py-1">
         <div className="container-xxl">
           <div className="row">
@@ -214,6 +216,39 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className="featured-wrapper blog-wrapper home-wrapper-2 py-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h5 className="section-heading">Featured Collection</h5>
+            </div>
+            <Productcard />
+            <Productcard />
+            <Productcard />
+            <Productcard />
+            <Productcard />
+            <Productcard />
+          </div>
+        </div>
+      </section>
+
+      <section className="special-product-wrapper home-wrapper-2 py-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h5 className="section-heading">Special Products</h5>
+            </div>
+            <div className="row">
+            <UniqueProducts />
+            <UniqueProducts />
+            <UniqueProducts />
+            
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="marquee-wrapper home-wrapper-2 py-3">
         <div className="container-xxl">
           <div className="row">
@@ -247,39 +282,20 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="blog-wrapper home-wrapper-2 py-2">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="col-12">
-              <h5 className="section-heading">
-                Featured Collection
-              </h5>
-            </div>
-            <Productcard/>
-            <Productcard/>
-            <Productcard/>
-            <Productcard/>
-            <Productcard/>
-            <Productcard/>
-          </div>
-        </div>
-      </section>
+
       <section className="blog-wrapper home-wrapper-2 py-3">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <h5 className="section-heading">
-                Our Latest Blogs
-              </h5>
+              <h5 className="section-heading">Our Latest Blogs</h5>
             </div>
-            <Blogcard/>
-            <Blogcard/>
-            <Blogcard/>
-            <Blogcard/>
+            <Blogcard />
+            <Blogcard />
+            <Blogcard />
+            <Blogcard />
           </div>
         </div>
       </section>
-   
     </>
   );
 };
