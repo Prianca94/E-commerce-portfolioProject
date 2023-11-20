@@ -233,6 +233,61 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="famous-wrapper home-wrapper-2 py-4">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/speaker-1.jpg"
+                  className="img-fluid"
+                  alt="famous1"
+                />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Wireless HeadPhones</h6>
+                  <p>From $399 or $62/month for 24 months</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-3.png" alt="famous1" />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">4G Kid's Video Calling</h5>
+                  <h6 className="text-dark">Smart Watch Series-7</h6>
+                  {/* <p className="text-dark">From $399 or $62/month for 24 months</p> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-4.png"
+                  className="img-fluid"
+                  alt="famous1"
+                />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Camera Protection</h5>
+                  <h6 className="text-dark">Oppo A57 4G Mobile</h6>
+                  {/* <p className="text-dark">From $799 or $62/month for 24 months</p> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-5.png" alt="famous1" />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Retina Display</h5>
+                  <h6 className="text-dark">Apple MacBook Air Laptop</h6>
+                  {/* <p className="text-dark">From $399 or $62/month for 24 months</p> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="special-product-wrapper home-wrapper-2 py-2">
         <div className="container-xxl">
           <div className="row">
@@ -240,14 +295,29 @@ const Home = () => {
               <h5 className="section-heading">Special Products</h5>
             </div>
             <div className="row">
-            <UniqueProducts />
-            <UniqueProducts />
-            <UniqueProducts />
-            
+              <UniqueProducts />
+              <UniqueProducts />
+              <UniqueProducts />
             </div>
           </div>
         </div>
       </section>
+
+      {/* <section className="popular-products-wrapper blog-wrapper home-wrapper-2 py-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h5 className="section-heading">Our Popular Products</h5>
+            </div>
+            <Productcard />
+            <Productcard />
+            <Productcard />
+            <Productcard />
+            <Productcard />
+            <Productcard />
+          </div>
+        </div>
+      </section> */}
 
       <section className="marquee-wrapper home-wrapper-2 py-3">
         <div className="container-xxl">
