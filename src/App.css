@@ -526,7 +526,71 @@ a{
 
 
 /*Famous Product card ends*/
+/*Our Store Starts*/
 
+.filter-card{
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 15px;
+}
+.filter-title{
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 600;
+  color:var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+
+.filter-card ul , .filter-card .form-check-label{
+  list-style: none;
+  font-size: 12px;
+  line-height: 23px;
+  cursor: pointer;
+  color:var(--color-777777);
+  font-weight: 600;
+}
+
+.filter-card .form-check-input:checked{
+  background-color: var(--color-131921);
+  border-color: var(--color-131921);
+}
+
+.filter-card .form-check-input:focus{
+  box-shadow: none;
+  border-color:rbga(0,0,0,0.25) ;
+}
+
+.filter-card .subtitle{
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+}
+
+.form-floating .form-control{
+  background-color:#EAEAEA;
+  height: 1vw;
+
+}
+.form-floating .label{
+  margin-top: -10px;
+  font-size: 13px;
+}
+.colors li{
+  background-color: red;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+}
+.colors{
+  list-style-type: none;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+/*Our Store Ends*/
 
 /* Footer Start */
 

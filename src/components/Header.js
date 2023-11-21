@@ -18,13 +18,14 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
+              
               <p className="text-white mb-0">
                 Flat $25 Off On Your First Order and Free Shipping
               </p>
             </div>
             <div className="col-6">
               <p className="contactclass text-end text-white">
-                <img src="images/phone.png" alt="phone"/>{" "}
+                <img src="images/phone.png" alt="phone" />{" "}
                 <a className="text-white" href="tel:+91 9574382333">
                   {" "}
                   +91 9574382333
@@ -63,7 +64,10 @@ const Header = () => {
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <FontAwesomeIcon className="fontawesomeclass fs-4" icon={faCodeCompare} />
+                    <FontAwesomeIcon
+                      className="fontawesomeclass fs-4"
+                      icon={faCodeCompare}
+                    />
                     <p className="mb-0">
                       Compare <br /> Products
                     </p>
@@ -71,7 +75,10 @@ const Header = () => {
                 </div>
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <FontAwesomeIcon className="fontawesomeclass fs-4" icon={faHeart} />
+                    <FontAwesomeIcon
+                      className="fontawesomeclass fs-4"
+                      icon={faHeart}
+                    />
                     <p className="mb-0">
                       Favourite <br /> WishList
                     </p>
@@ -79,7 +86,10 @@ const Header = () => {
                 </div>
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <FontAwesomeIcon className="fontawesomeclass fs-4" icon={faUser} />
+                    <FontAwesomeIcon
+                      className="fontawesomeclass fs-4"
+                      icon={faUser}
+                    />
                     <p className="mb-0">
                       Login <br /> My Account
                     </p>
@@ -95,7 +105,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div className="menuicon">
-                <FontAwesomeIcon className="fontawesomeclass" icon={faBars} />
+                  <FontAwesomeIcon className="fontawesomeclass" icon={faBars} />
                 </div>
               </div>
             </div>
@@ -121,7 +131,8 @@ const Header = () => {
                   </button>
                   <ul
                     class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton1">
+                    aria-labelledby="dropdownMenuButton1"
+                  >
                     <li>
                       <Link class="dropdown-item  text-white" href="#">
                         Action
@@ -140,22 +151,25 @@ const Header = () => {
                   </ul>
                 </div>
               </div>
-              
+
               <div className="menu-links text-white">
                 <div className="d-flex align-items-center gap-15">
-                  <NavLink className="text-white">Home</NavLink>
-                  <NavLink className="text-white">Our Products</NavLink>
+                  <NavLink to="/" className="text-white">
+                    Home
+                  </NavLink>
+                  <NavLink to="/store" className="text-white">
+                    Our Products
+                  </NavLink>
                   <NavLink className="text-white">Blogs</NavLink>
                   <NavLink className="text-white">Contact</NavLink>
-                </div>          
+                </div>
               </div>
-          
             </div>
           </div>
           <div className="col-2">
-          <div className="menuicon2">
-                 <FontAwesomeIcon className="fontawesomeclass" icon={faBars} />
-              </div>
+            <div className="menuicon2">
+              <FontAwesomeIcon className="fontawesomeclass" icon={faBars} />
+            </div>
           </div>
         </div>
       </header>
