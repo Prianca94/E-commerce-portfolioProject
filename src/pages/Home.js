@@ -20,8 +20,8 @@ const Home = () => {
                 ></img>
               </div>
               <div className="main-banner-content text-white position-absolute">
-                <h5>HeadPhones and Earphones</h5>
-                <h7>Buy Best HeadPhones</h7>
+                <h5>HeadPhones and Earphones</h5><br/>
+                {/* <h6>Buy Best HeadPhones</h6> */}
                 <p>
                   Starting from $99 <br />
                   or monthly $12

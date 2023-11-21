@@ -22,7 +22,7 @@ const Productcard = () => {
             <ReactStars
               count={5}
               size={20}
-              value="3"
+              value={3}
               edit={false}
               activeColor="#ffd700"/>
             <p className="price">$220.00</p>
