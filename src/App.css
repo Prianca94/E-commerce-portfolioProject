@@ -136,7 +136,7 @@ a{
 /* Header Ends */
 /*Home-wrapper-1 starts*/
 .main-banner-content{
-  top: 8%;
+  top: 7%;
   left: 3%;
 }
 
@@ -355,9 +355,10 @@ a{
 
 .product-card{
   background-color: white;
-  padding: 5px;
+  padding: 15px;
   border-radius: 10px;
   overflow: hidden;
+  width: 100%;
 }
 
 .product-card:hover .action-bar{
@@ -365,8 +366,9 @@ a{
 }
 
 .product-card img{
-  height: 10vw;
-  width: 10vw;
+  height: 8vw;
+  width: 8vw;
+
 }
 
 .product-card .product-image{
@@ -377,6 +379,11 @@ a{
   object-fit: contain;
   transition: 0.3s;
 }
+
+.productlistextra{
+  display: none;
+}
+
 
 .product-card .product-image>img:last-child{
    width: 10vw;
@@ -427,8 +434,11 @@ a{
 }
 
 .wishlist-icon{
-  top: 0px;
-  right: -117px;
+  top: 9px;
+  right: 3px;
+}
+.productcardextra .productextra{
+  display: none;
 }
 
 /*Product card ends*/
@@ -624,6 +634,40 @@ a{
   font-size: 12px;
 }
 
+.gr-12{
+  width: 100%;
+}
+
+.gr-6{
+  width: 49.2%;
+}
+
+.gr-4{
+  width: 32%;
+}
+
+.gr-3{
+  width: 24%;
+}
+
+.gr-12 .product-card{
+  display: flex;
+  gap:120px;
+}
+
+.gr-12 .product-card .product-image{
+  width: 250px;
+}
+
+
+.gr-6 .product-card .product-image{
+  width: 100px;
+}
+
+.gr-6 .product-card .product-image img{
+  margin: auto;
+  
+}
 
 /*Our Store Ends*/
 

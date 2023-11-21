@@ -226,9 +226,6 @@ const Home = () => {
             <Productcard />
             <Productcard />
             <Productcard />
-            <Productcard />
-            <Productcard />
-            <Productcard />
           </div>
         </div>
       </section>
