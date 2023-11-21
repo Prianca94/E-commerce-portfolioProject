@@ -80,7 +80,7 @@ const Store = () => {
                       <div className="form-check">
                       <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                       <label className="form-check-label" htmlFor="flexCheckDefault">
-                        S (4)
+                        S (3)
                       </label>{" "}
                     </div>
                     <div className="form-check">
