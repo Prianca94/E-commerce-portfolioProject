@@ -13,14 +13,11 @@ const Home = () => {
           <div className="row">
             <div className="col-6">
               <div className="main-banner position-relative p-1">
-                <img
-                  className="img-fluid rounded-3"
-                  src="/images/headphone-banner.jpg"
-                  alt="bannerimg1"
-                ></img>
+                <img className="img-fluid rounded-3" src="/images/headphone-banner.jpg" alt="bannerimg1"></img>
               </div>
               <div className="main-banner-content text-white position-absolute">
-                <h5>HeadPhones and Earphones</h5><br/>
+                <h5>HeadPhones and Earphones</h5>
+                <br />
                 {/* <h6>Buy Best HeadPhones</h6> */}
                 <p>
                   Starting from $99 <br />
@@ -32,11 +29,7 @@ const Home = () => {
             <div className="col-6">
               <div className="d-flex align-items-center flex-wrap justify-content-between">
                 <div className="small-banner position-relative p-1">
-                  <img
-                    className="img-fluid rounded-3"
-                    src="/images/mobile-2.jpg"
-                    alt="bannerimg2"
-                  ></img>
+                  <img className="img-fluid rounded-3" src="/images/mobile-2.jpg" alt="bannerimg2"></img>
 
                   <div className="small-banner-content text-black position-absolute">
                     <h5>Mobile</h5>
@@ -49,11 +42,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="small-banner position-relative p-1">
-                  <img
-                    className="img-fluid rounded-3"
-                    src="/images/laptopimg.jpg"
-                    alt="bannerimg2"
-                  ></img>
+                  <img className="img-fluid rounded-3" src="/images/laptopimg.jpg" alt="bannerimg2"></img>
 
                   <div className="small-banner-content text-white position-absolute">
                     <h5>Laptop Max</h5>
@@ -65,11 +54,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="small-banner position-relative p-1">
-                  <img
-                    className="img-fluid rounded-3"
-                    src="/images/tabletimg.jpg"
-                    alt="bannerimg2"
-                  ></img>
+                  <img className="img-fluid rounded-3" src="/images/tabletimg.jpg" alt="bannerimg2"></img>
 
                   <div className="small-banner-content text-black position-absolute">
                     <h5 className="text-black">iPad 13 Pro</h5>
@@ -82,11 +67,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="small-banner position-relative p-1">
-                  <img
-                    className="img-fluid rounded-3"
-                    src="/images/mobile-2.jpg"
-                    alt="bannerimg2"
-                  ></img>
+                  <img className="img-fluid rounded-3" src="/images/mobile-2.jpg" alt="bannerimg2"></img>
 
                   <div className="small-banner-content text-black position-absolute">
                     <h5>HeadPhones and Earphones</h5>
@@ -235,11 +216,7 @@ const Home = () => {
           <div className="row">
             <div className="col-3">
               <div className="famous-card position-relative">
-                <img
-                  src="images/speaker-1.jpg"
-                  className="img-fluid"
-                  alt="famous1"
-                />
+                <img src="images/speaker-1.jpg" className="img-fluid" alt="famous1" />
                 <div className="famous-content position-absolute">
                   <h5>Big Screen</h5>
                   <h6>Wireless HeadPhones</h6>
@@ -259,11 +236,7 @@ const Home = () => {
             </div>
             <div className="col-3">
               <div className="famous-card position-relative">
-                <img
-                  src="images/famous-4.png"
-                  className="img-fluid"
-                  alt="famous1"
-                />
+                <img src="images/famous-4.png" className="img-fluid" alt="famous1" />
                 <div className="famous-content position-absolute">
                   <h5 className="text-dark">Camera Protection</h5>
                   <h6 className="text-dark">Oppo A57 4G Mobile</h6>
@@ -356,10 +329,11 @@ const Home = () => {
             <div className="col-12">
               <h5 className="section-heading">Our Latest Blogs</h5>
             </div>
-            <Blogcard />
-            <Blogcard />
-            <Blogcard />
-            <Blogcard />
+            <div className='col-3'> <Blogcard /></div>
+            <div className='col-3'> <Blogcard /></div>
+            <div className='col-3'> <Blogcard /></div>
+            <div className='col-3'> <Blogcard /></div>
+           
           </div>
         </div>
       </section>
