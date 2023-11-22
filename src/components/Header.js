@@ -160,8 +160,8 @@ const Header = () => {
                   <NavLink to="/store" className="text-white">
                     Our Products
                   </NavLink>
-                  <NavLink className="text-white">Blogs</NavLink>
-                  <NavLink className="text-white">Contact</NavLink>
+                  <NavLink to="/blog" className="text-white">Blogs</NavLink>
+                  <NavLink to="/contact" className="text-white">Contact</NavLink>
                 </div>
               </div>
             </div>
