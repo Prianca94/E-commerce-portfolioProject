@@ -7,9 +7,6 @@ import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoEyeOutline } from "react-icons/io5";
 
-
-
-
 const Contact = () => {
   return (<>
     <Helmet>
