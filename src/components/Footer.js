@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="col-4">
               <h5 className="mb-3">Contact</h5>
               <div>
-                <address>
+                <address className="text-white">
                   3, prime Residency <br />
                   Manjipura Road <br />
                   pincode-387002

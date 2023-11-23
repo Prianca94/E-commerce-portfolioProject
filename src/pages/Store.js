@@ -3,6 +3,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import { Helmet } from "react-helmet";
 import ReactStars from "react-rating-stars-component";
 import Productcard from "../components/Productcard";
+import Color from "../components/Color";
 
 const Store = () => {
   console.log("store");
@@ -66,20 +67,10 @@ const Store = () => {
                       </div>
                       <h3 className="subtitle">Colors</h3>
                       <div className="mt-2">
-                        <ul className="colors ps-0">
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                        </ul>
+                  
+
+
+                  <Color/>
                       </div>
                       <h3 className="subtitle">Size</h3>
                       <div className="mt-2">
