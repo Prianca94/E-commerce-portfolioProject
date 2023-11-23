@@ -740,14 +740,14 @@ a{
   right: 18px;
   top:25px; 
 }
-.compare-product-details h5.title{
+.compare-product-details h5.title , .wishlist-card h5.title{
   font-size: 15px;
   line-height:20px;
   font-weight: 500px;
 color:var(--color-1c1c1b)
 }
 
-.compare-product-details h6.price{
+.compare-product-details h6.price , .wishlist-card h6.price{
   font-size: 15px;
   line-height:20px;
   font-weight: 400px;
@@ -778,6 +778,44 @@ color:var(--color-1c1c1b)
 }
 
 /*wishlist ends*/
+
+/*auth card*/
+
+.login-card{
+  padding: 20px;
+  width: 400px;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.login-card h3{
+  font-size: 17px;
+  color: var(--color-777777);
+  font-weight: 500;
+}
+
+.login-card .form-control{
+  height: 40px;
+  background-color: var(--color-f5f5f7);
+  color:var(--color-777777);
+  border-color: transparent;
+  border-radius: 10px;
+  font-size: 12px;
+
+}
+.login-card a.forgotpass{
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+.login-card p{
+  font-size: 14px;
+  color:var(--color-777777)
+}
+
+
+/*auth card ends*/
 /* Footer Start */
 
 footer{
