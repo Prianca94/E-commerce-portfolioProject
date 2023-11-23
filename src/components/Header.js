@@ -1,13 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
-import {
-  faBars,
-  faCartArrowDown,
-  faCodeCompare,
-  faHeart,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faCartArrowDown, faCodeCompare, faHeart, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSlack } from "@fortawesome/free-brands-svg-icons";
 
@@ -18,10 +12,7 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              
-              <p className="text-white mt-1 mb-1">
-                Flat $25 Off On Your First Order and Free Shipping
-              </p>
+              <p className="text-white mt-1 mb-1">Flat $25 Off On Your First Order and Free Shipping</p>
             </div>
             <div className="col-6">
               <p className="contactclass text-end text-white mt-1 mb-1">
@@ -45,17 +36,8 @@ const Header = () => {
             </div>
             <div className="col-5 mt-1">
               <div class="input-group mb-1">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Search Here..."
-                  aria-label="Search Here..."
-                  aria-describedby="inputGroup-sizing-default"
-                />
-                <span
-                  className="input-group-text"
-                  id="inputGroup-sizing-default"
-                >
+                <input type="text" className="form-control" placeholder="Search Here..." aria-label="Search Here..." aria-describedby="inputGroup-sizing-default" />
+                <span className="input-group-text" id="inputGroup-sizing-default">
                   <BsSearch className="fs-6" />
                 </span>
               </div>
@@ -64,10 +46,7 @@ const Header = () => {
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
                   <Link to="/compareproducts" className="d-flex align-items-center gap-10 text-white">
-                    <FontAwesomeIcon
-                      className="fontawesomeclass fs-4"
-                      icon={faCodeCompare}
-                    />
+                    <FontAwesomeIcon className="fontawesomeclass fs-4" icon={faCodeCompare} />
                     <p className="mb-1 mt-2">
                       Compare <br /> Products
                     </p>
@@ -75,21 +54,15 @@ const Header = () => {
                 </div>
                 <div>
                   <Link to="/wishlist" className="d-flex align-items-center gap-10 text-white">
-                    <FontAwesomeIcon
-                      className="fontawesomeclass fs-4"
-                      icon={faHeart}
-                    />
+                    <FontAwesomeIcon className="fontawesomeclass fs-4" icon={faHeart} />
                     <p className="mb-1 mt-2">
                       Favourite <br /> WishList
                     </p>
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
-                    <FontAwesomeIcon
-                      className="fontawesomeclass fs-4"
-                      icon={faUser}
-                    />
+                  <Link to="/login" className="d-flex align-items-center gap-10 text-white">
+                    <FontAwesomeIcon className="fontawesomeclass fs-4" icon={faUser} />
                     <p className="mb-1 mt-2">
                       Login <br /> My Account
                     </p>
@@ -120,19 +93,10 @@ const Header = () => {
               <div>
                 <div class="dropdown">
                   <FontAwesomeIcon className="text-white" icon={faSlack} />
-                  <button
-                    class="btn btn-secondary dropdown-toggle bg-transparent border-0 me-5 d-inline-block"
-                    type="button"
-                    id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
+                  <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 me-5 d-inline-block" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Categories
                   </button>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton1"
-                  >
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li>
                       <Link class="dropdown-item  text-white" href="#">
                         Action
@@ -160,8 +124,12 @@ const Header = () => {
                   <NavLink to="/store" className="text-white">
                     Our Products
                   </NavLink>
-                  <NavLink to="/blog" className="text-white">Blogs</NavLink>
-                  <NavLink to="/contact" className="text-white">Contact</NavLink>
+                  <NavLink to="/blog" className="text-white">
+                    Blogs
+                  </NavLink>
+                  <NavLink to="/contact" className="text-white">
+                    Contact
+                  </NavLink>
                 </div>
               </div>
             </div>
