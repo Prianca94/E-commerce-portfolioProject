@@ -13,7 +13,7 @@ const Home = () => {
           <div className="row">
             <div className="col-6">
               <div className="main-banner position-relative p-1">
-                <img className="img-fluid rounded-3" src="/images/headphone-banner.jpg" alt="bannerimg1"></img>
+                <img className="img-fluid rounded-3" src="images/headphone-banner.jpg" alt="bannerimg1"></img>
               </div>
               <div className="main-banner-content text-white position-absolute">
                 <h5>HeadPhones and Earphones</h5>
@@ -84,6 +84,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
       <section className="home-wrapper-2 py-4 px-3">
         <div className="container-xxl">
           <div className="row">

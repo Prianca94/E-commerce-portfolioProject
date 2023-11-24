@@ -4,6 +4,8 @@ import { BsSearch } from "react-icons/bs";
 import { faBars, faCartArrowDown, faCodeCompare, faHeart, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSlack } from "@fortawesome/free-brands-svg-icons";
+import Phoneimg from "../Assets/images/phone.png";
+
 
 const Header = () => {
   return (
@@ -16,7 +18,7 @@ const Header = () => {
             </div>
             <div className="col-6">
               <p className="contactclass text-end text-white mt-1 mb-1">
-                <img src="images/phone.png" alt="phone" />{" "}
+                <img src={Phoneimg} alt="phone" />{" "}
                 <a className="text-white" href="tel:+91 9574382333">
                   {" "}
                   +91 9574382333
