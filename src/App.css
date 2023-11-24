@@ -357,6 +357,22 @@ a{
 
 }
 
+.blognews-wrapper h3{
+  font-size: 18px;
+  font-weight: 600px;
+  color:var(--color-1c1c1b)
+}
+
+.blognews-wrapper p{
+  font-size: 12px;
+  color:var(--color-777777)
+}
+.blognews-wrapper a{
+  font-size: 14px;
+  color:var(--color-777777);
+  margin-bottom: 20px;
+}
+
 /*Blog part ends here*/
 /*Product card starts*/
 
@@ -450,6 +466,25 @@ a{
 }
 
 /*Product card ends*/
+
+/*Single product*/
+
+.description-wrapper h4{
+  font-size: 20px;
+}
+
+.description-wrapper p{
+  font-size: 12px;
+}
+.reviews-wrapper h4{
+  font-size: 20px;
+}
+
+.reviews-wrapper p,a{
+  font-size: 12px;
+}
+
+/*single product ends */
 /*Special Product card starts*/
 
 .special-product-card{
@@ -816,6 +851,16 @@ color:var(--color-1c1c1b)
 
 
 /*auth card ends*/
+/*Policy start */
+
+.policy{
+  background-color: white;
+  padding: 20px;
+}
+
+/*Policy ends*/
+
+
 /* Footer Start */
 
 footer{
