@@ -7,9 +7,8 @@ import { Link } from "react-router-dom";
 
 const Product = () => {
 
-    const [orderedProduct,setOrderedProduct]=useState(false);
-   // setOrderedProduct(2);
-   console.log(setOrderedProduct(2));
+    const [orderedProduct]=useState(false);
+  
   return (
     <>
       <Helmet>
