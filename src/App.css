@@ -476,12 +476,49 @@ a{
 .description-wrapper p{
   font-size: 12px;
 }
+
+.description-wrapper h4{
+  font-size: 20px;
+  color: var(--color-1c1c1b);
+}
 .reviews-wrapper h4{
   font-size: 20px;
+  color: var(--color-1c1c1b);
 }
 
 .reviews-wrapper p,a{
   font-size: 12px;
+  color: var(--color-777777);
+}
+.review-top{
+  border-bottom: 1px solid var(--color-ededed);
+  padding-bottom: 20px;
+}
+.review-top h4{
+font-size: 15px
+}
+
+.review-form h4{
+  font-size: 12px;
+  color:var(--color-777777)
+}
+.review-form textarea{
+  border: 1px solid var(--color-ededed);
+  font-size: 12px;
+}
+.review p{
+  font-size: 12px;
+  color:var(--color-777777)
+}
+.review h4{
+  font-size: 12px;
+}
+.review-form{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+
+}
+.review:not(:last-child){
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 /*single product ends */
