@@ -3,10 +3,13 @@ import { Helmet } from "react-helmet";
 import Breadcrumb from "../components/Breadcrumb";
 import Productcard from "../components/Productcard";
 import ReactStars from "react-rating-stars-component";
+import { Link } from "react-router-dom";
 
 const Product = () => {
 
-    const [orderedProduct,setOrderedProduct]=useState(false)
+    const [orderedProduct,setOrderedProduct]=useState(false);
+   // setOrderedProduct(2);
+   console.log(setOrderedProduct(2));
   return (
     <>
       <Helmet>
@@ -50,7 +53,7 @@ const Product = () => {
                     </div>
                   </div>
                   {orderedProduct?   <div>
-                    <a href="#" className="text-dark text-decoration-underline">Write a Review</a>
+                    <Link className="text-dark text-decoration-underline">Write a Review</Link>
                   </div>:""
                }
                 </div>
