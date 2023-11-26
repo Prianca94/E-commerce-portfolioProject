@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import Watch from "../Assets/images/watch-1.png";
 import { MdDelete } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Container from "../components/Container";
 
 const Cart = () => {
   return (
@@ -13,9 +14,8 @@ const Cart = () => {
         <title>Cart</title>
       </Helmet>
       <Breadcrumb title="Cart" />
-      <section className="cart-wrapper home-wrapper-2 py-2">
-        <div className="container-xxl">
-          <div className="row">
+      <Container className="cart-wrapper home-wrapper-2 py-2">
+      <div className="row">
             <div className="col-12">
               <div className="cart-header d-flex py-3 justify-content-between align-items-center">
                 <h4 className="cart-1">Product</h4>
@@ -89,8 +89,7 @@ const Cart = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+      </Container>
     </>
   );
 };

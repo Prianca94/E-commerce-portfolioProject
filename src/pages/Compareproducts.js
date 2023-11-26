@@ -4,6 +4,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import Color from "../components/Color";
 import Cross from "../Assets/images/cross.png";
 import Watch1 from "../Assets/images/watch-1.png";
+import Container from "../components/Container";
 
 const Compareproducts = () => {
   return (
@@ -13,9 +14,8 @@ const Compareproducts = () => {
         <title>Compare Products</title>
       </Helmet>
       <Breadcrumb title="Compare-Products" />
-      <div className="compare-product-wrapper home-wrapper-2 py-2">
-        <div className="container-xxl">
-          <div className="row">
+      <Container class1="compare-product-wrapper home-wrapper-2 py-2">
+      <div className="row">
             <div className="col-3">
               <div className="compare-product-card position-relative">
                 <img src={Cross} alt="cross" className="position-absolute cross" />
@@ -162,8 +162,7 @@ const Compareproducts = () => {
             </div>
           
           </div>
-        </div>
-      </div>
+      </Container>
     </>
   );
 };

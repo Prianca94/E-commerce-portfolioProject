@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { IoIosArrowBack } from "react-icons/io";
 import Watch from "../Assets/images/watch-1.png";
+import Container from "../components/Container";
 
 const Checkout = () => {
   return (
     <>
-      <div className="checkout-wrapper home-wrapper-2">
-        <div className="container-xxl">
-          <div className="row">
+      <Container class1="checkout-wrapper home-wrapper-2">
+      <div className="row">
             <div className="col-7">
               <div className="checkout-left">
                 <h3 className="website-name">A-ZeeBazaar</h3>
@@ -131,8 +131,7 @@ const Checkout = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
     </>
   );
 };

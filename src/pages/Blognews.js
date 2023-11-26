@@ -3,6 +3,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 import { IoMdArrowRoundBack } from "react-icons/io";
+import Container from '../components/Container';
 
 
 const Blognews = () => {
@@ -13,9 +14,8 @@ const Blognews = () => {
         <title>Single Blog</title>
       </Helmet>
       <Breadcrumb title="Single Blog" />
-      <div className='blognews-wrapper home-wrapper-2 py-2 px-2'>
-        <div className="container-xxl">
-          <div className="row">
+      <Container class1='blognews-wrapper home-wrapper-2 py-2 px-2'>
+      <div className="row">
             <div className="col-12">
               <Link className="d-flex align-items-center gap-10" to="/blog">
                 <IoMdArrowRoundBack className='fs-5'></IoMdArrowRoundBack> Go back to blogs</Link>
@@ -25,8 +25,7 @@ const Blognews = () => {
               
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
     
     </>
   )

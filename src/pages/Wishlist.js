@@ -1,6 +1,7 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import { Helmet } from "react-helmet";
+import Container from "../components/Container";
 
 const Wishlist = () => {
   return (
@@ -10,9 +11,8 @@ const Wishlist = () => {
         <title>WishList</title>
       </Helmet>
       <Breadcrumb title="Wishlist" />
-      <div className="wishlist-wrapper home-wrapper-2 py-2">
-        <div className="container-xxl">
-          <div className="row">
+      <Container class1="wishlist-wrapper home-wrapper-2 py-2">
+      <div className="row">
             <div className="col-3">
               <div className="wishlist-card position-relative">
                 <img src="images/cross.png" alt="cross" className="position-absolute img-fluid cross" />
@@ -50,8 +50,7 @@ const Wishlist = () => {
             </div>
        
           </div>
-        </div>
-      </div>
+      </Container>
     </>
   );
 };

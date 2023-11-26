@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import ReactStars from "react-rating-stars-component";
 import Productcard from "../components/Productcard";
 import Color from "../components/Color";
+import Container from "../components/Container";
 
 const Store = () => {
   console.log("store");
@@ -17,9 +18,8 @@ const Store = () => {
         <title>Our Store</title>
       </Helmet>
       <Breadcrumb title="Our Store" />
-      <div className="store-wrapper home-wrapper-2 py-2">
-        <div className="container-xxl">
-          <div className="row">
+      <Container class1="store-wrapper home-wrapper-2 py-2">
+      <div className="row">
             <div className="col-3 p-0">
               <div className="filter-card mb-2">
                 <h3 className="filter-title">Shop by Categories</h3>
@@ -176,8 +176,7 @@ const Store = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
 
     </>
   );
