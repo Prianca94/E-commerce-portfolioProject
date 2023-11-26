@@ -25,15 +25,15 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-6">
-              <div class="input-group mb-2">
+              <div className="input-group mb-2">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Write Email"
                   aria-label="Recipient's username"
                   aria-describedby="basic-addon2"
                 />
-                <span class="input-group-text text-white" id="basic-addon2">
+                <span className="input-group-text text-white" id="basic-addon2">
                   {" "}
                   SUBSCRIBE
                 </span>

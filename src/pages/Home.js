@@ -4,13 +4,13 @@ import Marquee from "react-fast-marquee";
 import Blogcard from "../components/blogcard";
 import Productcard from "../components/Productcard";
 import UniqueProducts from "../components/UniqueProducts";
+import Container from "../components/Container";
 
 const Home = () => {
   return (
     <>
-      <section className="homer-wrapper-1 py-3">
-        <div className="container-xxl">
-          <div className="row">
+    <Container class1="homer-wrapper-1 py-3">
+    <div className="row">
             <div className="col-6">
               <div className="main-banner position-relative p-1">
                 <img className="img-fluid rounded-3" src="images/headphone-banner.jpg" alt="bannerimg1"></img>
@@ -82,8 +82,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+  
+    </Container>
       
       <section className="home-wrapper-2 py-4 px-3">
         <div className="container-xxl">
