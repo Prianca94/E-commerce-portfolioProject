@@ -6,6 +6,7 @@ import { IoHomeOutline } from "react-icons/io5";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoEyeOutline } from "react-icons/io5";
+import Container from '../components/Container';
 
 const Contact = () => {
   return (<>
@@ -14,9 +15,8 @@ const Contact = () => {
     <title>Contact Us</title>
   </Helmet>
   <Breadcrumb title="Contact" />
-  <div className="contact-wrapper home-wrapper-2">
-    <div className="container-xxl">
-      <div className="row">
+  <Container class1="contact-wrapper home-wrapper-2">
+  <div className="row">
         <div className="col-12">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.2483270340067!2d72.85146157461992!3d22.719009627589582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e5b78d1677645%3A0xbc22bb275b1f1027!2sPrime%20Residency%2C%20Manjipura%20Rd%2C%20Subhash%20Nagar%2C%20Manjipura%20Part%2C%20Nadiad%2C%20Gujarat%20387002!5e0!3m2!1sen!2sin!4v1700634042453!5m2!1sen!2sin" width="600" height="300" style={{"border":"0px"}} className="w-100" title="m" allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade">
 
@@ -62,9 +62,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
 
-  </div>
+  </Container>
   </>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Breadcrumb from '../components/Breadcrumb'
 import Blogcard from "../components/blogcard";
+import Container from '../components/Container';
 
 const Blog = () => {
   return (
@@ -11,9 +12,8 @@ const Blog = () => {
         <title>Blogs</title>
       </Helmet>
       <Breadcrumb title="Blogs" />
-      <div className='blog-wrapper home-wrapper-2 py-2'>
-        <div className="container-xxl">
-          <div className="row">
+      <Container class1='blog-wrapper home-wrapper-2 py-2'>
+      <div className="row">
             <div className="col-3">
 
             <div className="filter-card mb-2">
@@ -50,8 +50,7 @@ const Blog = () => {
               
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
      
     </>
   )

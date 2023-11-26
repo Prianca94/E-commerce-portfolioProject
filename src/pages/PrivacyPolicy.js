@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet'
 import Breadcrumb from '../components/Breadcrumb'
+import Container from '../components/Container';
 
 
 const PrivacyPolicy = () => {
@@ -11,18 +12,16 @@ const PrivacyPolicy = () => {
     <title>Privacy Policy</title>
   </Helmet>
   <Breadcrumb title="Privacy Policy" />
-  <section className='policy-wrapper home-wrapper-2 py-2'>
-    <div className="container-xxl">
-        <div className="row">
+  <Container class1='policy-wrapper home-wrapper-2 py-2'>
+  <div className="row">
             <div className="col-12">
                 <div className="policy">
                     
                 </div>
             </div>
         </div>
-    </div>
 
-  </section>
+  </Container>
  
  
     </>
