@@ -37,6 +37,7 @@ const Product = () => {
         <title>Product</title>
       </Helmet>
       <Breadcrumb title="Product" />
+
       <Container class1="main-product-wrapper home-wrapper-2 p-2">
         <div className="row">
           <div className="col-6">
@@ -52,8 +53,8 @@ const Product = () => {
               <div>
                 <img src={watchimg} alt="watch-im" className="img-fluid" />
               </div>
-              <div></div>
-              <div></div>
+              <div> <img src={watchimg} alt="watch-im" className="img-fluid" /></div>
+              <div> <img src={watchimg} alt="watch-im" className="img-fluid" /></div>
             </div>
           </div>
           <div className="col-6">
@@ -256,6 +257,7 @@ const Product = () => {
           <Productcard />
         </div>
       </Container>
+
     </>
   );
 };
