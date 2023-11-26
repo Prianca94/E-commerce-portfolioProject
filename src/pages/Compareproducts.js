@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Breadcrumb from "../components/Breadcrumb";
 import Color from "../components/Color";
+import Cross from "../Assets/images/cross.png";
+import Watch1 from "../Assets/images/watch-1.png";
 
 const Compareproducts = () => {
   return (
@@ -16,9 +18,9 @@ const Compareproducts = () => {
           <div className="row">
             <div className="col-3">
               <div className="compare-product-card position-relative">
-                <img src="images/cross.png" alt="cross" className="position-absolute cross" />
+                <img src={Cross} alt="cross" className="position-absolute cross" />
                 <div className="compare-product-image">
-                  <img src="images/watch-1.png" className="img-fluid w-100 h-100" alt="watch-1" />
+                  <img src={Watch1} className="img-fluid w-100 h-100" alt="watch-1" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title mt-1 mb-1">Titan Quartz Analog White Dial Leather Strap Watch for Men</h5>
@@ -52,9 +54,9 @@ const Compareproducts = () => {
             </div>
               <div className="col-3">
               <div className="compare-product-card position-relative">
-                <img src="images/cross.png" alt="cross" className="position-absolute cross" />
+                <img src={Cross} alt="cross" className="position-absolute cross" />
                 <div className="compare-product-image">
-                  <img src="images/watch-1.png" className="img-fluid w-100 h-100" alt="watch-1" />
+                  <img src={Watch1} className="img-fluid w-100 h-100" alt="watch-1" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title mt-1 mb-1">Titan Quartz Analog White Dial Leather Strap Watch for Men</h5>
@@ -88,9 +90,9 @@ const Compareproducts = () => {
             </div>
             <div className="col-3">
               <div className="compare-product-card position-relative">
-                <img src="images/cross.png" alt="cross" className="position-absolute cross" />
+                <img src={Cross} alt="cross" className="position-absolute cross" />
                 <div className="compare-product-image">
-                  <img src="images/watch-1.png" className="img-fluid w-100 h-100" alt="watch-1" />
+                  <img src={Watch1} className="img-fluid w-100 h-100" alt="watch-1" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title mt-1 mb-1">Titan Quartz Analog White Dial Leather Strap Watch for Men</h5>
@@ -124,9 +126,9 @@ const Compareproducts = () => {
             </div>
               <div className="col-3">
               <div className="compare-product-card position-relative">
-                <img src="images/cross.png" alt="cross" className="position-absolute cross" />
+                <img src={Cross} alt="cross" className="position-absolute cross" />
                 <div className="compare-product-image">
-                  <img src="images/watch-1.png" className="img-fluid w-100 h-100" alt="watch-1" />
+                  <img src={Watch1} className="img-fluid w-100 h-100" alt="watch-1" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title mt-1 mb-1">Titan Quartz Analog White Dial Leather Strap Watch for Men</h5>

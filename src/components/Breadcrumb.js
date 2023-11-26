@@ -9,7 +9,8 @@ const Breadcrumb = (props) => {
           <div className="col-12">
             <p className="text-center mb-0 mt-2">
               <Link
-                className="text-dark"
+                className="text-dark breadcrumb-title"
+                
                 to="/">
                 Home /{" "}
               </Link>{" "}

@@ -45,7 +45,7 @@ const UniqueProducts = () => {
 
                 <div className="progress">
                   <div
-                    class="progress-bar bg-success"
+                    className="progress-bar bg-success"
                     role="progressbar"
                     style={{ width: "25%" }}
                     aria-valuenow="25"

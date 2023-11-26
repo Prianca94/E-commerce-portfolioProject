@@ -37,7 +37,7 @@ const Header = () => {
               </h4>
             </div>
             <div className="col-5 mt-1">
-              <div class="input-group mb-1">
+              <div className="input-group mb-1">
                 <input type="text" className="form-control" placeholder="Search Here..." aria-label="Search Here..." aria-describedby="inputGroup-sizing-default" />
                 <span className="input-group-text" id="inputGroup-sizing-default">
                   <BsSearch className="fs-6" />
@@ -71,7 +71,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-3 text-white">
+                  <Link to="/cart" className="d-flex align-items-center gap-3 text-white">
                     <FontAwesomeIcon className="fs-5" icon={faCartArrowDown} />
                     <div className="d-flex flex-column gap-3">
                       <span className="badge bg-white text-dark mt-1 mb-0">0</span>
@@ -93,24 +93,24 @@ const Header = () => {
           <div className="col-10">
             <div className="menu-bottom d-flex align-items-center gap-30">
               <div>
-                <div class="dropdown">
+                <div className="dropdown">
                   <FontAwesomeIcon className="text-white" icon={faSlack} />
-                  <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 me-5 d-inline-block" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 me-5 d-inline-block" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Categories
                   </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li>
-                      <Link class="dropdown-item  text-white" href="#">
+                      <Link className="dropdown-item  text-white" href="#">
                         Action
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item  text-white" href="#">
+                      <Link className="dropdown-item  text-white" href="#">
                         Another action
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item  text-white" href="#">
+                      <Link className="dropdown-item  text-white" href="#">
                         Something else here
                       </Link>
                     </li>
