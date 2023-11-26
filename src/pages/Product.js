@@ -18,7 +18,7 @@ import Container from "../components/Container";
 const Product = () => {
   const [orderedProduct] = useState(true);
 
-  const props = { width: 450, height: 500, zoomWidth: 500, img: watchimg };
+  const props = { width: 500, height: 500, zoomWidth: 500, img: watchimg };
 
   const copyToClipboard = (text) => {
     console.log("text", text);
