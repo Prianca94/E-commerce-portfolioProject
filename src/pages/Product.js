@@ -18,7 +18,7 @@ import Container from "../components/Container";
 const Product = () => {
   const [orderedProduct] = useState(true);
 
-  const props = { width: 450, height: 500, zoomWidth: 450, img: watchimg };
+  const props = { width: 500, height: 500, zoomWidth: 500, img: watchimg };
 
   const copyToClipboard = (text) => {
     console.log("text", text);
@@ -53,8 +53,14 @@ const Product = () => {
               <div>
                 <img src={watchimg} alt="watch-im" className="img-fluid" />
               </div>
-              <div> <img src={watchimg} alt="watch-im" className="img-fluid" /></div>
-              <div> <img src={watchimg} alt="watch-im" className="img-fluid" /></div>
+              <div>
+                {" "}
+                <img src={watchimg} alt="watch-im" className="img-fluid" />
+              </div>
+              <div>
+                {" "}
+                <img src={watchimg} alt="watch-im" className="img-fluid" />
+              </div>
             </div>
           </div>
           <div className="col-6">
@@ -257,7 +263,6 @@ const Product = () => {
           <Productcard />
         </div>
       </Container>
-
     </>
   );
 };
