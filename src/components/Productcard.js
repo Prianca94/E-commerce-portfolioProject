@@ -47,7 +47,7 @@ const Productcard = (props) => {
         </Link>
       </div>
       <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-2"}`}>
-        <Link className="product-card position-relative">
+        <Link  to="/product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <button className="border-0 bg-transparent">
               <img src={Wishlist} alt="wishlist"></img>
